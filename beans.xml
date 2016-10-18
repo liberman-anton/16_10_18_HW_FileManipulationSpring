@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd ">
+	
+	<bean id = "reverse" class = "wix.filemanipulations.manipulations.Reverse"></bean>
+	<bean id = "shuffle" class = "wix.filemanipulations.manipulations.Shuffle"></bean>
+	<bean id = "sort" class = "wix.filemanipulations.manipulations.Sort"></bean>
+	<bean id = "manipulations" class = "wix.filemanipulations.manipulations.Manipulations">
+	    <constructor-arg name = "manipulations">
+	        <map>
+	            <entry key="reverse"><ref bean = "reverse"/></entry>
+	            <entry key="shuffle"><ref bean = "shuffle"/></entry>
+	            <entry key="sort"><ref bean = "sort"/></entry>
+	        </map>
+	    </constructor-arg>
+	</bean>
+	    
+</beans>
