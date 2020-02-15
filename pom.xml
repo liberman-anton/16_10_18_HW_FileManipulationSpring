@@ -26,7 +26,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass> wix.filemanipulations.controller.FileManipulationsAppl</mainClass>
+            <mainClass>wix.filemanipulations.controller.FileManipulationsAppl</mainClass>
           </manifest>
         </archive>
       </configuration>
