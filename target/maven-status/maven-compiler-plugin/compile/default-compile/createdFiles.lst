@@ -1,0 +1,7 @@
+wix/filemanipulations/controller/FileManipulationsAppl.class
+wix/filemanipulations/manipulations/Sort.class
+wix/filemanipulations/manipulations/Shuffle.class
+wix/filemanipulations/manipulations/Manipulations.class
+wix/filemanipulations/manipulations/Reverse.class
+wix/filemanipulations/manipulations/IManipulations.class
+wix/filemanipulations/io/LinesInputOutput.class
